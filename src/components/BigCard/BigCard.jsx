@@ -2,7 +2,6 @@ import React from "react";
 import classes from "./BigCard.module.css";
 import Paper from "@mui/material/Paper";
 import one from "../../assets/one.png";
-import Backdrop from "@mui/material/Backdrop";
 
 const BigCard = () => {
   return (
