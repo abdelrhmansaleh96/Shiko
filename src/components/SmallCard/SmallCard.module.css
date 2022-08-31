@@ -1,0 +1,39 @@
+.SmallCard {
+  max-width: 560px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px;
+  color: #10aff4;
+}
+.header {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32.2947px;
+  line-height: 39px;
+  text-align: center;
+  margin: 0;
+}
+.desc {
+  /* font-family: "Stolzl"; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23.4328px;
+  line-height: 28px;
+  text-align: justify;
+  direction: rtl;
+  color: #8b8b8b;
+  border-right: 1px solid #10aff4;
+  padding-right: 16px;
+}
