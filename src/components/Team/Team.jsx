@@ -25,6 +25,7 @@ const Team = () => {
             padding: "65px 45px",
             borderRadius: "50px",
             marginRight: "-15px",
+            backgroundColor: "#F8F8F8",
           }}
           elevation={2}
         >
