@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 25vh;
+  width: 100%;
+}
+.logo {
+  display: flex;
+}
+.desc {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+
+  color: rgba(225, 225, 225, 0.5);
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  list-style: none;
+}
+.item {
+  margin: 10px;
+  transition: all 0.1s ease-in-out;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+}
+.item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
